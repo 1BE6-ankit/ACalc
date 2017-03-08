@@ -1,0 +1,23 @@
+D:\_projects\ACalc G1\bin\Debug\WindowsApplication.exe.config
+D:\_projects\ACalc G1\bin\Debug\WindowsApplication.exe
+D:\_projects\ACalc G1\bin\Debug\WindowsApplication.pdb
+D:\_projects\ACalc G1\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll
+D:\_projects\ACalc G1\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml
+D:\_projects\ACalc G1\obj\x86\Debug\ACalc_G1.acalc.resources
+D:\_projects\ACalc G1\obj\x86\Debug\ACalc_G1.b_iszero.resources
+D:\_projects\ACalc G1\obj\x86\Debug\ACalc_G1.c_iszero.resources
+D:\_projects\ACalc G1\obj\x86\Debug\ACalc_G1.hcf_lcm_form.resources
+D:\_projects\ACalc G1\obj\x86\Debug\ACalc_G1.hcf_lcm_help.resources
+D:\_projects\ACalc G1\obj\x86\Debug\ACalc_G1.history.resources
+D:\_projects\ACalc G1\obj\x86\Debug\ACalc_G1.Resources.resources
+D:\_projects\ACalc G1\obj\x86\Debug\ACalc_G1.nothing_zero.resources
+D:\_projects\ACalc G1\obj\x86\Debug\ACalc_G1.Prime_Com.resources
+D:\_projects\ACalc G1\obj\x86\Debug\ACalc_G1.process_window.resources
+D:\_projects\ACalc G1\obj\x86\Debug\ACalc_G1.quad_form.resources
+D:\_projects\ACalc G1\obj\x86\Debug\ACalc_G1.settings.resources
+D:\_projects\ACalc G1\obj\x86\Debug\ACalc_G1.user_manual.resources
+D:\_projects\ACalc G1\obj\x86\Debug\ACalc G1.vbproj.GenerateResource.Cache
+D:\_projects\ACalc G1\obj\x86\Debug\WindowsApplication.exe
+D:\_projects\ACalc G1\obj\x86\Debug\WindowsApplication.pdb
+D:\_projects\ACalc G1\obj\x86\Debug\ACalc_G1.imaginaryForm.resources
+D:\_projects\ACalc G1\obj\x86\Debug\ACalc G1.vbprojResolveAssemblyReference.cache

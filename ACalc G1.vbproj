@@ -1,0 +1,273 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProjectGuid>{EFEF76B7-9173-4306-BFB5-73A18527CB4F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>
+    </StartupObject>
+    <RootNamespace>ACalc_G1</RootNamespace>
+    <AssemblyName>WindowsApplication</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.VisualBasic.PowerPacks, Version=12.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="ACalc G1\ACalc G1.vbproj" />
+    <Content Include="ACalc G1\ACalc G1.vbproj.user" />
+    <Content Include="ACalc G1\bin\Debug\ACalc G1.exe" />
+    <Content Include="ACalc G1\bin\Debug\ACalc G1.pdb" />
+    <Content Include="ACalc G1\bin\Debug\ACalc G1.vshost.exe" />
+    <Content Include="ACalc G1\bin\Debug\ACalc G1.xml" />
+    <Content Include="ACalc G1\bin\Debug\ACalc_Files\hcf_lcm.txt" />
+    <Content Include="ACalc G1\bin\Debug\ACalc_Files\history.txt" />
+    <Content Include="ACalc G1\bin\Debug\ACalc_Files\settings.txt" />
+    <Content Include="ACalc G1\bin\Debug\app.publish\ACalc G1.exe" />
+    <Content Include="ACalc G1\bin\Debug\Microsoft.VisualBasic.PowerPacks.Design.dll" />
+    <Content Include="ACalc G1\bin\Debug\Microsoft.VisualBasic.PowerPacks.dll" />
+    <Content Include="ACalc G1\bin\Debug\Microsoft.VisualBasic.PowerPacks.xml" />
+    <Content Include="ACalc G1\bin\icon.ico" />
+    <Content Include="ACalc G1\icon.ico" />
+    <Content Include="ACalc G1\My Project\Application.myapp" />
+    <Content Include="ACalc G1\obj\Debug\ACalc G1.exe" />
+    <Content Include="ACalc G1\obj\Debug\ACalc G1.pdb" />
+    <Content Include="ACalc G1\obj\Debug\ACalc G1.vbproj.FileListAbsolute.txt" />
+    <Content Include="ACalc G1\obj\Debug\ACalc G1.xml" />
+    <Content Include="ACalc G1\obj\Debug\TempPE\My Project.Resources.Designer.vb.dll" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ACalc G1\ACalc G1_TemporaryKey.pfx" />
+    <None Include="ACalc G1\App.config" />
+    <None Include="ACalc G1\app.manifest" />
+    <None Include="ACalc G1\bin\Debug\ACalc G1.exe.config" />
+    <None Include="ACalc G1\bin\Debug\ACalc G1.vshost.exe.config" />
+    <None Include="ACalc G1\bin\Debug\ACalc G1.vshost.exe.manifest" />
+    <None Include="ACalc G1\My Project\app.manifest" />
+    <None Include="ACalc G1\My Project\Settings.settings" />
+    <None Include="ACalc G1\obj\Debug\ACalc G1.vbproj.GenerateResource.Cache" />
+    <None Include="ACalc G1\obj\Debug\ACalc G1.vbprojResolveAssemblyReference.cache" />
+    <None Include="ACalc G1\obj\Debug\DesignTimeResolveAssemblyReferences.cache" />
+    <None Include="ACalc G1\obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="ACalc G1\Acalc.Designer.vb">
+      <DependentUpon>Acalc.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ACalc G1\Acalc.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACalc G1\b_iszero.Designer.vb">
+      <DependentUpon>b_iszero.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ACalc G1\b_iszero.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACalc G1\c_iszero.Designer.vb">
+      <DependentUpon>c_iszero.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ACalc G1\c_iszero.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACalc G1\Form1.Designer.vb">
+      <DependentUpon>Form1.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ACalc G1\Form1.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACalc G1\hcf_lcm_class.vb" />
+    <Compile Include="ACalc G1\hcf_lcm_form.Designer.vb">
+      <DependentUpon>hcf_lcm_form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ACalc G1\hcf_lcm_form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACalc G1\hcf_lcm_help.Designer.vb">
+      <DependentUpon>hcf_lcm_help.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ACalc G1\hcf_lcm_help.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACalc G1\history.Designer.vb">
+      <DependentUpon>history.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ACalc G1\history.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACalc G1\history_delete.vb" />
+    <Compile Include="ACalc G1\imaginaryForm.Designer.vb">
+      <DependentUpon>imaginaryForm.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ACalc G1\imaginaryForm.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACalc G1\main_calc.vb" />
+    <Compile Include="ACalc G1\My Project\Application.Designer.vb" />
+    <Compile Include="ACalc G1\My Project\AssemblyInfo.vb" />
+    <Compile Include="ACalc G1\My Project\Resources.Designer.vb" />
+    <Compile Include="ACalc G1\My Project\Settings.Designer.vb" />
+    <Compile Include="ACalc G1\nothing_zero.Designer.vb">
+      <DependentUpon>nothing_zero.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ACalc G1\nothing_zero.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACalc G1\Prime_Com.Designer.vb">
+      <DependentUpon>Prime_Com.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ACalc G1\Prime_Com.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACalc G1\process_window.Designer.vb">
+      <DependentUpon>process_window.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ACalc G1\process_window.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACalc G1\quad_form.Designer.vb">
+      <DependentUpon>quad_form.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ACalc G1\quad_form.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACalc G1\quad_handle.vb" />
+    <Compile Include="ACalc G1\settings.Designer.vb">
+      <DependentUpon>settings.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ACalc G1\settings.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ACalc G1\user_manual.Designer.vb">
+      <DependentUpon>user_manual.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ACalc G1\user_manual.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="ACalc G1\Acalc.resx">
+      <DependentUpon>Acalc.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACalc G1\b_iszero.resx">
+      <DependentUpon>b_iszero.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACalc G1\c_iszero.resx">
+      <DependentUpon>c_iszero.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACalc G1\hcf_lcm_form.resx">
+      <DependentUpon>hcf_lcm_form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACalc G1\hcf_lcm_help.resx">
+      <DependentUpon>hcf_lcm_help.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACalc G1\history.resx">
+      <DependentUpon>history.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACalc G1\imaginaryForm.resx">
+      <DependentUpon>imaginaryForm.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACalc G1\My Project\Resources.resx" />
+    <EmbeddedResource Include="ACalc G1\nothing_zero.resx">
+      <DependentUpon>nothing_zero.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACalc G1\obj\Debug\ACalc_G1.acalc.resources" />
+    <EmbeddedResource Include="ACalc G1\obj\Debug\ACalc_G1.b_iszero.resources" />
+    <EmbeddedResource Include="ACalc G1\obj\Debug\ACalc_G1.c_iszero.resources" />
+    <EmbeddedResource Include="ACalc G1\obj\Debug\ACalc_G1.hcf_lcm_form.resources" />
+    <EmbeddedResource Include="ACalc G1\obj\Debug\ACalc_G1.hcf_lcm_help.resources" />
+    <EmbeddedResource Include="ACalc G1\obj\Debug\ACalc_G1.history.resources" />
+    <EmbeddedResource Include="ACalc G1\obj\Debug\ACalc_G1.nothing_zero.resources" />
+    <EmbeddedResource Include="ACalc G1\obj\Debug\ACalc_G1.Prime_Com.resources" />
+    <EmbeddedResource Include="ACalc G1\obj\Debug\ACalc_G1.process_window.resources" />
+    <EmbeddedResource Include="ACalc G1\obj\Debug\ACalc_G1.quad_form.resources" />
+    <EmbeddedResource Include="ACalc G1\obj\Debug\ACalc_G1.Resources.resources" />
+    <EmbeddedResource Include="ACalc G1\obj\Debug\ACalc_G1.settings.resources" />
+    <EmbeddedResource Include="ACalc G1\obj\Debug\ACalc_G1.user_manual.resources" />
+    <EmbeddedResource Include="ACalc G1\Prime_Com.resx">
+      <DependentUpon>Prime_Com.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACalc G1\process_window.resx">
+      <DependentUpon>process_window.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACalc G1\quad_form.resx">
+      <DependentUpon>quad_form.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACalc G1\settings.resx">
+      <DependentUpon>settings.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ACalc G1\user_manual.resx">
+      <DependentUpon>user_manual.vb</DependentUpon>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include=".vs\" />
+    <Folder Include="ACalc G1\bin\Release\" />
+    <Folder Include="My Project\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.Targets" />
+  <ProjectExtensions>
+    <VisualStudio AllowExistingFolder="true" />
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
