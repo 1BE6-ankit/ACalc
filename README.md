@@ -1,6 +1,5 @@
 # ACalc
 ACalc is a calulator application that displays all the steps of the performed calculation.
-To edit the code fire up Visual Studio and import the project by opening _ACalc G1.vbproj_. 
 
 ## Installing ACalc
 Installers for the ACalc's latest build are available at the it's (official website)[https://www.ankitkoirala.com.np]
