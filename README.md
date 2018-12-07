@@ -2,7 +2,7 @@
 ACalc is a calulator application that displays all the steps of the performed calculation.
 
 ## Installing ACalc
-Installers for the ACalc's latest build are available at the it's (official website)[https://www.ankitkoirala.com.np]
+Installers for the ACalc's latest build are available at the it's (official website)[http://acalc.eu5.net/]
  contains the link for the installer.
 
 ## Coding ACalc
